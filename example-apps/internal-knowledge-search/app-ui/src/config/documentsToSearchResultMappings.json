@@ -1,0 +1,23 @@
+{
+  "search-mongo": {
+    "title": "name",
+    "created": "_timestamp",
+    "previewText": "summary",
+    "fullText": "description",
+    "link": "listing_url"
+  },
+  "search-mysql": {
+    "title": "name",
+    "created": "_timestamp",
+    "previewText": "summary",
+    "fullText": "description",
+    "link": "listing_url"
+  },
+  "search-sharepoint": {
+    "title": "name",
+    "created": "createdDateTime",
+    "previewText": "body",
+    "fullText": "body",
+    "link": "webUrl"
+  }
+}

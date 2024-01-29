@@ -1,0 +1,8 @@
+#!/bin/bash
+SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
+
+if [[ ! -f $SCRIPT_DIR/../.venv/bin/nbtest ]]; then
+    make nbtest
+fi
+source $SCRIPT_DIR/../.venv/bin/activate
+$SCRIPT_DIR/../.venv/bin/nbtest $*
